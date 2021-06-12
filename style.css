@@ -1,8 +1,8 @@
 :root {
   --backgroundcolor: #f9d766;
   --stick: #ffa500;
-  --hotpink: rgb(228, 140, 180, 0.6);
-  --lightpink: rgb(228, 140, 180);
+  --hotpink: rgb(230, 75, 152, 0.6);
+  --lightpink: #e48cb4;
   --gray: rgba(0, 0, 0, 0.1);
 }
 
@@ -29,7 +29,7 @@ body {
 
 .candy__top {
   position: absolute;
-  top: 178px;
+  top: 175px;
   background-color: var(--lightpink);
   height: 250px;
   width: 170px;
