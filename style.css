@@ -2,7 +2,8 @@
   --backgroundcolor: #ffd700;
   --stick: #ffa500;
   --hotpink: #ff69b4;
-  --lightpink: #ffb6c1;
+  --lightpink: rgba(255, 182, 193, 0.5);
+  --gray: rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -16,12 +17,24 @@ body {
 
 .candy__container {
   height: 250px;
-  width: 150px;
+  width: 170px;
   background-color: var(--hotpink);
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
+  position: relative;
+}
+
+.candy__bubble {
+  position: absolute;
+  top: 55px;
+  right: 25px;
+  height: 30px;
+  width: 50px;
+  background-color: var(--lightpink);
+  border-radius: 50%;
+  transform: rotate(60deg);
 }
 
 .candy__stick {
@@ -30,4 +43,10 @@ body {
   background-color: var(--stick);
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
+}
+
+.candy__shadow {
+  background-color: var(--gray);
+  height: 10px;
+  width: 100%;
 }
