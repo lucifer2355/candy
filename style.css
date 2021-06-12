@@ -7,9 +7,10 @@
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   background-color: var(--backgroundcolor);
 }
 
@@ -19,4 +20,14 @@ body {
   background-color: var(--hotpink);
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.candy__stick {
+  height: 110px;
+  width: 40px;
+  background-color: var(--stick);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
