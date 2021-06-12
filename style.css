@@ -1,13 +1,22 @@
+:root {
+  --backgroundcolor: #ffd700;
+  --stick: #ffa500;
+  --hotpink: #ff69b4;
+  --lightpink: #ffb6c1;
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #ffa500;
+  background-color: var(--backgroundcolor);
 }
 
 .candy__container {
-  height: 100px;
-  width: 100px;
-  background-color: red;
+  height: 250px;
+  width: 150px;
+  background-color: var(--hotpink);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
